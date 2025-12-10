@@ -3,9 +3,9 @@
   name: Playwright Tests (Microsoft Playwright Testing)
   on:
     push:
-      branches: [main, master]
+      branches: [demo, main]
     pull_request:
-      branches: [main, master]
+      branches: [demo, main]
 
   permissions: # Required when using Microsoft Entra ID to authenticate
     id-token: write
